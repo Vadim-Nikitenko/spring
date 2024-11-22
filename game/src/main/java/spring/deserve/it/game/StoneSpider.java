@@ -10,13 +10,4 @@ public class StoneSpider extends AbstractSpider {
         return RPSEnum.ROCK;
     }
 
-    @Override
-    public int getLives() {
-        return 0;
-    }
-
-    @Override
-    public void setLives(int lives) {
-
-    }
 }

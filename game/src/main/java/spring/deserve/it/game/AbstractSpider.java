@@ -2,17 +2,24 @@ package spring.deserve.it.game;
 
 import lombok.Getter;
 import lombok.Setter;
+import spring.deserve.it.api.InjectProperty;
 import spring.deserve.it.api.Spider;
+
 
 @Getter
 @Setter
 public abstract class AbstractSpider implements Spider {
 
+    @InjectProperty("spider.default.lives")
+    private int lives;
 
-    private String owner;
+    public int getLives() {
+        return lives;
+    }
 
-    private int lives = 5;
-
+    public void setLives(int lives) {
+        this.lives = lives;
+    }
 
     public boolean isAlive() {
         return lives > 0;

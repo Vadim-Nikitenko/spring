@@ -10,15 +10,4 @@ public class PaperSpider extends AbstractSpider {
         return RPSEnum.PAPER;
     }
 
-    @Override
-    public int getLives() {
-        return 0;
-    }
-
-    @Override
-    public void setLives(int lives) {
-
-    }
-
-
 }
