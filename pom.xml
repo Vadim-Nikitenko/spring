@@ -9,15 +9,13 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>spring.deserve.it</groupId>
-	<artifactId>SpiderArena</artifactId>
+	<artifactId>spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpiderArena</name>
 	<description>SpiderArena</description>
     <packaging>pom</packaging>
     <modules>
         <module>game</module>
-        <module>starter-core</module>
-        <module>starter-spiders</module>
     </modules>
 	<url/>
 	<licenses>

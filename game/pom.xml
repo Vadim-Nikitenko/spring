@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>spring.deserve.it</groupId>
-        <artifactId>SpiderArena</artifactId>
+        <artifactId>spring</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
@@ -14,17 +14,6 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <dependencies>
-        <dependency>
-            <groupId>spring.deserve.it</groupId>
-            <artifactId>starter-core</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>spring.deserve.it</groupId>
-            <artifactId>starter-spiders</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
 
     </dependencies>
 

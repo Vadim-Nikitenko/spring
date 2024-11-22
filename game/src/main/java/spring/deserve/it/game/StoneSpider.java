@@ -1,14 +1,22 @@
 package spring.deserve.it.game;
 
-import org.springframework.stereotype.Component;
-import spring.deserve.it.api.PlayerQualifier;
 import spring.deserve.it.api.RPSEnum;
 import spring.deserve.it.api.Spider;
 
-@PlayerQualifier(playerName = "Dima")
 public class StoneSpider extends AbstractSpider {
+
     @Override
-    public RPSEnum fight(Spider spider, int battleId) {
+    public RPSEnum fight(Spider spider) {
         return RPSEnum.ROCK;
+    }
+
+    @Override
+    public int getLives() {
+        return 0;
+    }
+
+    @Override
+    public void setLives(int lives) {
+
     }
 }

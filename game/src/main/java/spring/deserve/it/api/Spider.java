@@ -1,7 +1,7 @@
 package spring.deserve.it.api;
 
 public interface Spider {
-    RPSEnum fight(Spider opponent, int battleId );  // Метод для боя (камень, ножницы, бумага)
+    RPSEnum fight(Spider opponent);  // Метод для боя (камень, ножницы, бумага)
 
     boolean isAlive();  // Проверка, жив ли паук
 
@@ -10,11 +10,4 @@ public interface Spider {
     void loseLife();  // Уменьшение количества жизней на 1
 
     void setLives(int lives);  // Установка количества жизней
-
-    default String getOwner() {
-        return "unknown";
-    }
-
-     void setOwner(String owner);
 }
-
