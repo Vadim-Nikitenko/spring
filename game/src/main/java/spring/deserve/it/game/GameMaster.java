@@ -7,20 +7,17 @@ import spring.deserve.it.api.Spider;
 
 import java.util.*;
 
-
-@Component
 public class GameMaster {
-    @Value("${spider.default.lives}")
-    int maxLives;
-    int battleId = 0;
 
-    List<Spider>         spiders;  // Лист со всеми пауками
-    Map<String, Integer> playerTrophies;  // Карта с игроками и трофеями
+    @Value("spider.default.lives")
+    int maxLives;
+
+    private Spider spider1 = new PaperSpider();
+    private Spider spider2 = new StoneSpider();
 
     // Метод для запуска игры
     public void fight() {
-        while (true) {
-        }
+
     }
 
 }

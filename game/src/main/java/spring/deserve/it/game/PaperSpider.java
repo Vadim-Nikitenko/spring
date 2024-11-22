@@ -5,7 +5,6 @@ import spring.deserve.it.api.Spider;
 
 public class PaperSpider extends AbstractSpider {
 
-
     @Override
     public RPSEnum fight(Spider spider) {
         return RPSEnum.PAPER;
